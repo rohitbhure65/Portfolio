@@ -7,16 +7,26 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Digital Project Hub | PHP & MySQL",
+    title: "Ai Digital Art Generator | MERN & Ml",
     description:
-      "Features: Register User, Login User, Post new project and update and delete project listed by that particular user also can upgrade the profile",
-    image: "/images/projects/2.jpg",
+      "About The AI Digital Art Generator is a cutting-edge project developed using the MERN stack, harnessing the power of artificial intelligence to create stunning and realistic digital artworks in a matter of seconds. Leveraging the OpenAI API,",
+    image: "/images/projects/1.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/rohitbhure65/digitalprojecthub.com",
+    gitUrl: "https://github.com/rohitbhure65/AI-Digital-Art-Generator",
     previewUrl: "/",
   },
   {
-    id: 2,
+    id: 3,
+    title: "Digital Project Hub | PHP & MySQL",
+    description:
+      "Features: Register User, Login User, Post new project and update and delete project listed by that particular user also can upgrade the profile",
+    image: "/images/projects/1.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/rohitbhure65/digitalprojecthub.com",
+    previewUrl: "https://ai-digital-art-generator.vercel.app",
+  },
+  {
+    id: 4,
     title: "Stock Price Prediction | Python & ML",
     description:
       "Features: Implemented and compared various machine learning models, including but not limited to LSTM (Long Short-Term Memory) networks, to predict stock prices",
@@ -26,11 +36,11 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 5,
     title: "RentEaseRooms | MERN",
     description:
       "Features: Register User, Login User, Post new property and update and delete property listed by that particular user also can upgrade the profile",
-    image: "/images/projects/3.jpg",
+    image: "/images/projects/1.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/rohitbhure65/renteaserooms.com",
     previewUrl: "/",

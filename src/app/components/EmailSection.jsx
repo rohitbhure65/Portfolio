@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
@@ -9,6 +9,7 @@ import Image from "next/image";
 const EmailSection = () => {
   //hooks
   const [open, setOpen] = React.useState(false);
+  const [emailSubmitted, setemailsubmitted] = useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
